@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 body{
-    background-color: #c8f6fc;
+    background-color: #ebf7f8;
 }
 .container{
     width: 90%;
@@ -23,7 +24,7 @@ body{
 }
 .card{
     width: 300px;
-    background-color:#c7dee7;
+    background-color:#e4e7c7;
     border-radius: 1rem;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
     padding: 0 1.5rem;
@@ -80,6 +81,6 @@ body{
     font-size: 17px;
     font-weight: bold;
     color: white;
-    background-color: #b74555;
+    background-color: #458db7;
     border-radius: 8px;
 }

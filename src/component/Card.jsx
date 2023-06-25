@@ -14,9 +14,10 @@ const Card = ({ pokemon, loading, infoPokemon }) => {
                 key={item.id}
                 onClick={() => infoPokemon(item)}
               >
-                <h2>{item.id}</h2>
+                <h5>#{item.id}</h5>
                 <img src={item.sprites.front_default} alt="" />
                 <h2>{item.name}</h2>
+                <h2>{item.types.name}</h2>
               </div>
             </>
           );
